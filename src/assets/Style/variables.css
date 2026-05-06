@@ -1,0 +1,105 @@
+:root {
+    --purple: #763CBC;
+    --white: #fff;
+    --bg-light: #F5F5F6;
+    --bg-lightGray: #FDFDFD;
+    --black: #000;
+    --orange: #fe6723;
+    --orange-light: rgb(254, 103, 35, 0.7);
+    --pink: #ed3faa;
+
+
+    /* -------Font Sizes------- */
+
+    --fs-small: 18px;
+    --fs-medium: 24px;
+    --fs-large: 48px;
+    --fs-xlarge: 60px;
+
+}
+
+.transparent-btn {
+    background-color: transparent;
+    color: var(--white);
+    border: var(--white) 1px solid;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.4s ease;
+    width: fit-content;
+}
+
+.transparent-btn:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.white-btn {
+    background-color: var(--white);
+    color: var(--purple);
+    border: var(--white) 1px solid;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.4s ease;
+    width: fit-content;
+}
+
+.white-btn:hover {
+    background-color: rgb(255, 255, 255, 0.8);
+    border: #ffffffcc 1px solid;
+}
+
+.orange-btn {
+    background-color: var(--orange);
+    color: var(--white);
+    border: var(--orange) 1px solid;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.4s ease;
+    width: fit-content;
+}
+
+.orange-btn:hover {
+    background-color: var(--orange-light);
+    border: var(--orange-light) 1px solid;
+    color: var(--white);
+}
+
+.link-orange {
+    color: var(--orange);
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    font-size: var(--fs-small);
+    width: fit-content;
+    background-color: transparent;
+}
+
+.link-orange:hover {
+    color: var(--orange-light);
+}
+
+.link-orange::after {
+    content: ">";
+    margin-left: 10px;
+    vertical-align: middle;
+    font-weight: 700;
+    display: inline-block;
+    width: 0;
+    background-color: var(--orange);
+    transition: width 0.3s ease;
+}
+
+@media(max-width:768px) {
+    :root {
+        /* --fs-medium: 18px; */
+        --fs-small: 16px;
+    }
+}

@@ -1,0 +1,90 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  /* min-height: 100vh; */
+  margin: 0%;
+
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px 0px 10px 0px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.white {
+  color: var(--white);
+}
+
+.black {
+  color: var(--black);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.orange {
+  color: var(--orange);
+}
+.scroll-link{
+  cursor: pointer;
+}
+button {
+  font-family:inherit;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.inner-con {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.half-width {
+  width: 50%;
+}
